@@ -119,3 +119,32 @@ p.text {
 p.text span {
   color: var(--highlight);
 }
+
+.link-github {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, .7);
+  transition: background-color .15s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link-github:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.link-github a {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.link-github img {
+  max-width: 100%;
+}
